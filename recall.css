@@ -1,0 +1,55 @@
+body{
+  background: linear-gradient(to left, #ffffff, #a4d6df);
+  /*text-align: center;*/
+}
+.outterContainer{
+  background-image: url(g.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%; /* Set the width to 50% */
+  height: 80vh;
+  margin: 0 auto; /* Center the container horizontally */
+  overflow-y: auto; /* Add a vertical scrollbar if needed */
+  border-radius: 50px;
+}
+.container{
+  background-image: url(a.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  width: 98%; /* Set the width to 50% */
+  height: 80vh;
+  margin: 0 auto; /* Center the container horizontally */
+  overflow-y: auto; /* Add a vertical scrollbar if needed */
+  border-radius: 50px;
+}
+
+.bg{
+  text-align:right;
+  padding-right: 45px;
+}
+#setBG{
+  padding: 10px;
+}
+.list{
+  font-size: 20px;
+  /* list-style: none; */
+  /* padding: 0; */
+  list-style: decimal; /* Add this line to show numbering */
+}
+.list li {
+  text-align: left; /* Adjust text alignment for list items */
+  
+  
+}
+#validate{
+  size: 50px;
+}
+.completed{
+  text-decoration: line-through;
+  color: grey;
+}
+h6{
+  color: rgb(126, 114, 114);
+}
